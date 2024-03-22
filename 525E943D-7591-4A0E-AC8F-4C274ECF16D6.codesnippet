@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>ui_textfield</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>All</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>    private lazy var textField: UITextField = {
+        let textField = UITextField()
+        textField.placeholder = "Enter text"
+        textField.borderStyle = .roundedRect
+        textField.textColor = .black
+        textField.font = .systemFont(ofSize: 14)
+        textField.textAlignment = .left
+        textField.keyboardType = .default
+        textField.returnKeyType = .done
+        // Добавьте здесь другие свойства, если необходимо
+        return textField
+    }()
+</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>525E943D-7591-4A0E-AC8F-4C274ECF16D6</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Swift</string>
+	<key>IDECodeSnippetSummary</key>
+	<string></string>
+	<key>IDECodeSnippetTitle</key>
+	<string>Example: UITextField</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>

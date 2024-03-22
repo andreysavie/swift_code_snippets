@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>ui_btn</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>All</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>    private lazy var button: UIButton = {
+        let button = UIButton(type: .system)
+        button.setTitle("Tap me", for: .normal)
+        button.setTitleColor(.blue, for: .normal)
+        button.backgroundColor = .lightGray
+        button.layer.cornerRadius = 8.0
+        button.addTarget(self, action: #selector(buttonTapped), for: .touchUpInside)
+        // Добавьте здесь другие свойства, если необходимо
+        return button
+    }()
+</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>BFD591D7-4964-4287-852C-439AE6CDC658</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Swift</string>
+	<key>IDECodeSnippetSummary</key>
+	<string></string>
+	<key>IDECodeSnippetTitle</key>
+	<string>Example: UIButton</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>

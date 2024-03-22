@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>publisher_subscription</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>All</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>$&lt;#publisher#&gt;
+    .eraseToAnyPublisher()
+    .receive(on: DispatchQueue.main)
+    .compactMap { $0 }
+    .removeDuplicates()
+    .filter { &lt;#filter#&gt; }
+    .sink { [weak self] &lt;#value#&gt; in
+        &lt;#code#&gt;
+    }
+    .store(in: &amp;cancellables)
+</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>B60579B0-59E7-431A-B48D-7390ADC0440F</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Swift</string>
+	<key>IDECodeSnippetSummary</key>
+	<string></string>
+	<key>IDECodeSnippetTitle</key>
+	<string>Binding Publisher</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>

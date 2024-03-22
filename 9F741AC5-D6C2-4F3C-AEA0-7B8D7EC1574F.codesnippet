@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>ui_stepper</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>All</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>    private lazy var stepper: UIStepper = {
+        let stepper = UIStepper()
+        stepper.value = 1.0
+        stepper.minimumValue = 0.0
+        stepper.maximumValue = 10.0
+        stepper.stepValue = 1.0
+        stepper.tintColor = .orange
+        stepper.addTarget(self, action: #selector(stepperValueChanged), for: .valueChanged)
+        // Добавьте здесь другие свойства, если необходимо
+        return stepper
+    }()
+</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>9F741AC5-D6C2-4F3C-AEA0-7B8D7EC1574F</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Swift</string>
+	<key>IDECodeSnippetSummary</key>
+	<string></string>
+	<key>IDECodeSnippetTitle</key>
+	<string>Example: UIStepper</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>
